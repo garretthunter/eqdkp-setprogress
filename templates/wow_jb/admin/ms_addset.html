@@ -1,0 +1,112 @@
+<!-- INCLUDE ../../../../templates/wow_jb/page_header.html -->
+<script language="JavaScript" type="text/javascript">
+<!--
+function check_form()
+{
+    if (document.post.set_name.value.length < 2)
+    {
+        alert('{MSG_NAME_EMPTY}');
+        return false;
+    }
+    return true;
+}
+//-->
+</script>
+<form method="post" action="{F_ADD_SET}" name="post" onsubmit="return check_form(this)">
+<input name="{URI_ID}" type="hidden" id="{URI_ID}" value="{V_SET_ID}" />
+<table width="100%" border="0" cellspacing="1" cellpadding="2">
+  <tr>
+    <th colspan="2">{L_ADD_SET_TITLE}</th>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_cat_id">{L_CATEGORY}:</label></div>
+    </td>
+    <td width="100%" nowrap="nowrap" class="row2">
+      &nbsp;<select name="set_category_id" class="input" id="set_category_id">
+        <!-- BEGIN category_row -->
+        <option value="{category_row.VALUE}" {category_row.SELECTED}>{category_row.OPTION}</option>
+        <!-- END category_row -->
+      </select>
+      <!-- IF S_ADD == 0 -->
+      [ <a href="{U_EDIT_CATEGORY}">Edit</a> ]
+      <!-- ENDIF -->
+      </td>
+    </tr>
+  <tr>
+    <td nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_class_id">{L_CLASS}:</label></div>
+    </td>
+    <td nowrap="nowrap" class="row2">
+      &nbsp;<select name="set_class_id" class="input">
+        <!-- BEGIN class_row -->
+        <option value="{class_row.VALUE}"{class_row.SELECTED}>{class_row.OPTION}</option>
+        <!-- END class_row -->
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td width="200" nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_name">{L_NAME}:</label></div>
+    </td>
+    <td colspan="2" nowrap="nowrap" class="row2">
+       &nbsp;<input type="text" name="set_name" id="set_name" size="20" maxlength="30" value="{SET_NAME}" class="input" />
+       {FV_SET_NAME}    </td>
+    </tr>
+  <tr>
+    <th colspan="2" class="row1">
+<div style="padding:.25em;">
+    <!-- IF S_ADD -->
+    <input name="add" type="submit" class="mainoption" id="addset" value="{L_ADD_SET}" />
+    <input type="reset" name="reset" value="{L_RESET}" class="liteoption" />
+    <!-- ELSE -->
+    <input type="submit" name="update" value="{L_UPDATE_SET}" class="mainoption" /> <input type="submit"  name="delete" value="{L_DELETE_SET}" class="liteoption" />
+    <!-- ENDIF -->
+</div>
+    </th>
+  </tr>
+</table>
+</form>
+<!-- IF S_ADD == 0 -->
+<br />
+<form method="post" action="{F_ADD_SET_PIECE}" name="post">
+<input name="set_piece_set_id" type="hidden" id="set_piece_set_id" value="{SET_ID}" />
+<table width="100%" border="0" cellspacing="1" cellpadding="2">
+  <tr>
+    <th align="center" width="20" nowrap="nowrap">&nbsp;</th>
+    <th align="left" width="20" nowrap="nowrap">&nbsp;</th>
+    <th width="200" align="left">{L_NAME}</th>
+    <th align="left">{L_REQUIREMENT}</th>
+    <th>&nbsp;</th>
+  </tr>
+<!-- IF S_HAS_SETPIECES -->
+<!-- List existing setpieces below + ability to delete -->
+  <!-- BEGIN setpieces_row -->
+  <tr class="{setpieces_row.ROW_CLASS}">
+    <td width="20" nowrap="nowrap">
+        <div align="center"><input name="compare_ids[]" type="checkbox" id="compare_ids[]" value="{setpieces_row.ID}" /></div>
+    </td>
+    <td width="20" nowrap="nowrap">
+        <div align="center">{setpieces_row.COUNT}</div>
+    </td>
+    <td width="200" nowrap="nowrap"><a href="{setpieces_row.U_VIEW_SETPIECE}"><img src="images/view.gif" width="16" height="16" border="0"  /></a>{setpieces_row.NAME}</td>
+    <td nowrap="nowrap">{setpieces_row.REQUIREMENT}</td>
+    <td>&nbsp;</td>
+  </tr>
+  <!-- END setpieces_row -->
+  <tr>
+    <th colspan="5" class="footer">{LISTSETPIECES_FOOTCOUNT}</th>
+  </tr>
+<!-- ENDIF -->
+  <tr>
+    <th colspan="5">
+<div style="padding:.5em;">
+      <input name="submit" type="submit" class="liteoption" id="addsetpiece" value="{L_ADD_SETPIECE}" /><!-- IF S_HAS_SETPIECES -->&nbsp;
+      <input name="delete" type="submit" class="liteoption" id="deletesetpiece" value="{L_DELETE_SET_PIECE}" /><!-- ENDIF -->
+</div>
+    </th>
+  </tr>
+</table>
+</form>
+<!-- ENDIF -->
+<!-- INCLUDE ../../../../templates/wow_jb/page_tail.html -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by garrett (sony) -->
+<!ELEMENT wow_sets (category+)>
+<!ELEMENT category (name, class+)>
+<!ELEMENT class (class_name, set+)>
+<!ELEMENT set (name, piece+)>
+<!ELEMENT piece (name, requirement*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT requirement (#PCDATA)>
+<!ELEMENT class_name (#PCDATA)>

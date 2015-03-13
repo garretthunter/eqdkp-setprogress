@@ -1,0 +1,68 @@
+<!-- INCLUDE ../../../../templates/default/page_header.html -->
+<script language="JavaScript" type="text/javascript">
+<!--
+function check_form()
+{
+    if (document.post.set_name.value.length < 2)
+    {
+        alert('{MSG_NAME_EMPTY}');
+        return false;
+    }
+    return true;
+}               
+//-->
+</script>
+
+<form method="post" action="{F_ADD_SET_PIECE}" name="post" onsubmit="return check_form(this)">
+<input name="{URI_ID}" type="hidden" id="{URI_ID}" value="{V_SET_PIECE_ID}" />
+<table width="100%" border="0" cellspacing="1" cellpadding="2">
+  <tr>
+    <th colspan="2">{L_ADD_SET_PIECE_TITLE}</th>
+  </tr>
+  <tr>
+    <td width="159" nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_piece_set_id">{L_SET}:</label></div>
+      </td>
+    <td width="100%" nowrap="nowrap" class="row2">
+      <select name="set_piece_set_id" class="input">
+        <!-- BEGIN set_row -->
+        <option value="{set_row.VALUE}"{set_row.SELECTED}>{set_row.OPTION}</option>
+        <!-- END set_row -->
+      </select>
+	  <!-- IF S_ADD == 0 -->
+      [ <a href="{U_EDIT_SET}">Edit</a> ]
+	  <!-- ENDIF -->
+    </td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_piece_name">{L_NAME}:</label></div>
+    </td>
+    <td colspan="2" nowrap="nowrap" class="row2">
+       <input type="text" name="set_piece_name" id="set_piece_name" size="30" maxlength="255" value="{SET_PIECE_NAME}" class="input" /> 
+       {FV_SET_PIECE_NAME}    </td>
+    </tr>
+  <tr>
+    <td nowrap="nowrap" class="row1">
+      <div align="right"><label for="set_piece_requirement">{L_REQUIREMENT}:</label></div>
+	</td>
+    <td colspan="2" nowrap="nowrap" class="row2">
+        <input type="text" name="set_piece_requirement" id="set_piece_requirement" size="30" maxlength="255" value="{SET_PIECE_REQUIREMENT}" class="input" />
+      {FV_REQUIREMENT} </td>
+  </tr>
+  <tr>
+    <th colspan="2" class="row1">
+<div style="padding:.25em;">
+    <!-- IF S_ADD -->
+    <input name="add" type="submit" class="mainoption" id="addset" value="{L_ADD_SET_PIECE}" /> 
+    <input type="reset" name="reset" value="{L_RESET}" class="liteoption" />
+    <!-- ELSE -->
+    <input type="submit" name="update" value="{L_UPDATE_SET_PIECE}" class="mainoption" /> 
+    <input type="submit"  name="delete" value="{L_DELETE_SET_PIECE}" class="liteoption" />
+    <!-- ENDIF -->
+</div>
+	</th>
+  </tr>
+</table>
+</form>
+<!-- INCLUDE ../../../../templates/default/page_tail.html -->

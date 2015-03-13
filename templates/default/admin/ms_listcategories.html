@@ -1,0 +1,43 @@
+<!-- INCLUDE ../../../../templates/default/page_header.html -->
+<form method="post" action="{F_CATEGORIES}" name="post">
+<table width="100%" border="0" cellspacing="1" cellpadding="2">
+  <tr>
+    <th align="center" colspan="7">{L_SETS}</th>
+  </tr>  <tr>
+    <th align="center" width="5" nowrap="nowrap">&nbsp;</th>
+    <th align="left" width="20" nowrap="nowrap">&nbsp;</th>
+    <th align="left"><a href="{U_LIST_CATEGORIES}o={O_NAME}{URI_ADDON}">{L_NAME}</a></th>
+    <th align="left" width="60">{L_DISPLAY_ORDER}</th>
+    <th align="left" width="60">{L_DISPLAY}</th>
+    <th align="left">{L_SET}</th>
+    <th align="left">{L_CLASS}</th>
+    </tr>
+  <!-- BEGIN categories_row -->
+  <tr class="{categories_row.ROW_CLASS}">
+    <td width="5" nowrap="nowrap">
+	<!-- IF categories_row.ID -->
+	<div align="center"><input name="compare_ids[]" type="checkbox" id="compare_ids[]" value="{categories_row.ID}" /></div>
+	<!-- ENDIF -->
+    </td>
+    <td width="20" nowrap="nowrap">
+      <div align="center">{categories_row.COUNT}</div>
+    </td>
+    <td nowrap="nowrap"><a href="{categories_row.U_VIEW_CATEGORY}">{categories_row.NAME}</a></td>
+    <td width="60" nowrap="nowrap">
+      <div align="center">{categories_row.DISPLAY_ORDER}</div>
+    </td>
+    <td width="60" nowrap="nowrap">
+      <div align="center">{categories_row.DISPLAY}</div>
+    </td>
+    <td nowrap="nowrap"><a href="{categories_row.U_VIEW_SET}">{categories_row.SET_NAME}</a></td>
+    <td nowrap="nowrap">{categories_row.CLASS}</td>
+    </tr>
+  <!-- END categories_row -->
+  <tr>
+    <th colspan="14" class="footer">{LISTCATEGORIES_FOOTCOUNT}</th>
+  </tr>
+</table>
+<br />
+<center><input type="submit" name="{BUTTON_NAME}" value="{BUTTON_VALUE}" class="liteoption" /></center>
+</form>
+<!-- INCLUDE ../../../../templates/default/page_tail.html -->

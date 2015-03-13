@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by LoganFive (LoganFive) -->
+<wow_sets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\WebDesign\SleeplessKnights\rap\plugins\setprogress\xml\wow_sets.xsd">
+	<category>
+		<name>Tier 1</name>
+		<class>
+			<class_name>Druid</class_name>
+			<set>
+				<name>Cenarian Raiment</name>
+				<piece>
+					<name>Cenarion Belt</name>
+				</piece>
+				<piece>
+					<name>Cenarion Boots</name>
+				</piece>
+				<piece>
+					<name>Cenarion Bracers</name>
+				</piece>
+				<piece>
+					<name>Cenarion Gloves</name>
+				</piece>
+				<piece>
+					<name>Cenarion Helm</name>
+				</piece>
+				<piece>
+					<name>Cenarion Leggings</name>
+				</piece>
+				<piece>
+					<name>Cenarion Spaulders</name>
+				</piece>
+				<piece>
+					<name>Cenarion Vestments</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Hunter</class_name>
+			<set>
+				<name>Giantstalker Armor</name>
+				<piece>
+					<name>Giantstalker's Belt</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Boots</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Bracers</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Gloves</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Helmet</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Leggings</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Epaulets</name>
+				</piece>
+				<piece>
+					<name>Giantstalker's Breastplate</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Mage</class_name>
+			<set>
+				<name>Arcanist Regalia</name>
+				<piece>
+					<name>Arcanist Belt</name>
+				</piece>
+				<piece>
+					<name>Arcanist Boots</name>
+				</piece>
+				<piece>
+					<name>Arcanist Bindings</name>
+				</piece>
+				<piece>
+					<name>Arcanist Gloves</name>
+				</piece>
+				<piece>
+					<name>Arcanist Crown</name>
+				</piece>
+				<piece>
+					<name>Arcanist Leggings</name>
+				</piece>
+				<piece>
+					<name>Arcanist Mantle</name>
+				</piece>
+				<piece>
+					<name>Arcanist Robes</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Paladin</class_name>
+			<set>
+				<name>Lawbringer Armor</name>
+				<piece>
+					<name>Lawbringer Belt</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Boots</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Bracers</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Gauntlets</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Helm</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Legplates</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Spaulders</name>
+				</piece>
+				<piece>
+					<name>Lawbringer Chestguard</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Priest</class_name>
+			<set>
+				<name>Vestments of Prophecy</name>
+				<piece>
+					<name>Girdle of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Boots of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Vambraces of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Gloves of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Circlet of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Pants of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Mantle of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Robes of Prophecy</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Rogue</class_name>
+			<set>
+				<name>Nightslayer Armor</name>
+				<piece>
+					<name>Nightslayer Belt</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Boots</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Bracelets</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Gloves</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Cover</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Pants</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Shoulder Pads</name>
+				</piece>
+				<piece>
+					<name>Nightslayer Chestpiece</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Shaman</class_name>
+			<set>
+				<name>The Earthfury</name>
+				<piece>
+					<name>Earthfury Belt</name>
+				</piece>
+				<piece>
+					<name>Earthfury Boots</name>
+				</piece>
+				<piece>
+					<name>Earthfury Bracers</name>
+				</piece>
+				<piece>
+					<name>Earthfury Gauntlets</name>
+				</piece>
+				<piece>
+					<name>Earthfury Helmet</name>
+				</piece>
+				<piece>
+					<name>Earthfury Legguards</name>
+				</piece>
+				<piece>
+					<name>Earthfury Epaulets</name>
+				</piece>
+				<piece>
+					<name>Earthfury Vestments</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warlock</class_name>
+			<set>
+				<name>Felheart Raiment</name>
+				<piece>
+					<name>Felheart Belt</name>
+				</piece>
+				<piece>
+					<name>Felheart Slippers</name>
+				</piece>
+				<piece>
+					<name>Felheart Bracers</name>
+				</piece>
+				<piece>
+					<name>Felheart Gloves</name>
+				</piece>
+				<piece>
+					<name>Felheart Horns</name>
+				</piece>
+				<piece>
+					<name>Felheart Pants</name>
+				</piece>
+				<piece>
+					<name>Felheart Shoulder Pads</name>
+				</piece>
+				<piece>
+					<name>Felheart Robes</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warrior</class_name>
+			<set>
+				<name>Battlegear of Might</name>
+				<piece>
+					<name>Belt of Might</name>
+				</piece>
+				<piece>
+					<name>Sabatons of Might</name>
+				</piece>
+				<piece>
+					<name>Bracers of Might</name>
+				</piece>
+				<piece>
+					<name>Gauntlets of Might</name>
+				</piece>
+				<piece>
+					<name>Helm of Might</name>
+				</piece>
+				<piece>
+					<name>Legplates of Might</name>
+				</piece>
+				<piece>
+					<name>Pauldrons of Might</name>
+				</piece>
+				<piece>
+					<name>Breastplate of Might</name>
+				</piece>
+			</set>
+		</class>
+	</category>
+	<category>
+		<name>Tier 2</name>
+		<class>
+			<class_name>Druid</class_name>
+			<set>
+				<name>Stormrage Raiment</name>
+				<piece>
+					<name>Stormrage Belt</name>
+				</piece>
+				<piece>
+					<name>Stormrage Boots</name>
+				</piece>
+				<piece>
+					<name>Stormrage Bracers</name>
+				</piece>
+				<piece>
+					<name>Stormrage Handguards</name>
+				</piece>
+				<piece>
+					<name>Stormrage Cover</name>
+				</piece>
+				<piece>
+					<name>Stormrage Legguards</name>
+				</piece>
+				<piece>
+					<name>Stormrage Pauldrons</name>
+				</piece>
+				<piece>
+					<name>Stormrage Chestguard</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Hunter</class_name>
+			<set>
+				<name>Dragonstalker Armor</name>
+				<piece>
+					<name>Dragonstalker's Belt</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Greaves</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Bracers</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Gauntlets</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Helm</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Legguards</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Spaulders</name>
+				</piece>
+				<piece>
+					<name>Dragonstalker's Breastplate</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Mage</class_name>
+			<set>
+				<name>Netherwind Regalia</name>
+				<piece>
+					<name>Netherwind Belt</name>
+				</piece>
+				<piece>
+					<name>Netherwind Boots</name>
+				</piece>
+				<piece>
+					<name>Netherwind Bindings</name>
+				</piece>
+				<piece>
+					<name>Netherwind Gloves</name>
+				</piece>
+				<piece>
+					<name>Netherwind Crown</name>
+				</piece>
+				<piece>
+					<name>Netherwind Pants</name>
+				</piece>
+				<piece>
+					<name>Netherwind Mantle</name>
+				</piece>
+				<piece>
+					<name>Netherwind Robes</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Paladin</class_name>
+			<set>
+				<name>Judgement Armor</name>
+				<piece>
+					<name>Judgement Belt</name>
+				</piece>
+				<piece>
+					<name>Judgement Sabatons</name>
+				</piece>
+				<piece>
+					<name>Judgement Bindings</name>
+				</piece>
+				<piece>
+					<name>Judgement Gauntlets</name>
+				</piece>
+				<piece>
+					<name>Judgement Crown</name>
+				</piece>
+				<piece>
+					<name>Judgement Legplates</name>
+				</piece>
+				<piece>
+					<name>Judgement Spaulders</name>
+				</piece>
+				<piece>
+					<name>Judgement Breastplate</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Priest</class_name>
+			<set>
+				<name>Vestments of Transcendence</name>
+				<piece>
+					<name>Girdle of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Boots of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Vambraces of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Gloves of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Circlet of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Pants of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Mantle of Prophecy</name>
+				</piece>
+				<piece>
+					<name>Robes of Prophecy</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Rogue</class_name>
+			<set>
+				<name>Bloodfang Armor</name>
+				<piece>
+					<name>Bloodfang Belt</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Boots</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Bracers</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Gloves</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Hood</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Pants</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Spaulders</name>
+				</piece>
+				<piece>
+					<name>Bloodfang Chestpiece</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Shaman</class_name>
+			<set>
+				<name>The Ten Storms</name>
+				<piece>
+					<name>Belt of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Greaves of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Bracers of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Gauntlets of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Helmet of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Legplates of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Epaulets of Ten Storms</name>
+				</piece>
+				<piece>
+					<name>Breastplate of Ten Storms</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warlock</class_name>
+			<set>
+				<name>Nemesis Raiment</name>
+				<piece>
+					<name>Nemesis Belt</name>
+				</piece>
+				<piece>
+					<name>Nemesis Boots</name>
+				</piece>
+				<piece>
+					<name>Nemesis Bracers</name>
+				</piece>
+				<piece>
+					<name>Nemesis Gloves</name>
+				</piece>
+				<piece>
+					<name>Nemesis Skullcap</name>
+				</piece>
+				<piece>
+					<name>Nemesis Leggings</name>
+				</piece>
+				<piece>
+					<name>Nemesis Spaulders</name>
+				</piece>
+				<piece>
+					<name>Nemesis Robes</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warrior</class_name>
+			<set>
+				<name>Battlegear of Wrath</name>
+				<piece>
+					<name>Waistband of Wrath</name>
+				</piece>
+				<piece>
+					<name>Sabatons of Wrath</name>
+				</piece>
+				<piece>
+					<name>Bracelets of Wrath</name>
+				</piece>
+				<piece>
+					<name>Gauntlets of Wrath</name>
+				</piece>
+				<piece>
+					<name>Helm of Wrath</name>
+				</piece>
+				<piece>
+					<name>Legplates of Wrath</name>
+				</piece>
+				<piece>
+					<name>Pauldrons of Wrath</name>
+				</piece>
+				<piece>
+					<name>Breastplate of Wrath</name>
+				</piece>
+			</set>
+		</class>
+	</category>
+	<category>
+		<name>Tier 3</name>
+		<class>
+			<class_name>Druid</class_name>
+			<set>
+				<name>Dreamwalker Raiment</name>
+				<piece>
+					<name>Dreamwalker Girdle</name>
+					<requirement>Desecrated Girdle</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Boots</name>
+					<requirement>Desecrated Boots</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Wristguards</name>
+					<requirement>Desecrated Wristguards</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Handguards</name>
+					<requirement>Desecrated Handguards</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Headpiece</name>
+					<requirement>Desecrated Headpiece</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Legguards</name>
+					<requirement>Desecrated Legguards</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Spaulders</name>
+					<requirement>Desecrated Spaulders</requirement>
+				</piece>
+				<piece>
+					<name>Dreamwalker Tunic</name>
+					<requirement>Desecrated Tunic</requirement>
+				</piece>
+				<piece>
+					<name>Ring of the Dreamwalker</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Hunter</class_name>
+			<set>
+				<name>Crypstalker Armor</name>
+				<piece>
+					<name>Cryptstalker Girdle</name>
+					<requirement>Desecrated Girdle</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Boots</name>
+					<requirement>Desecrated Boots</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Wristguards</name>
+					<requirement>Desecrated Wristguards</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Handguards</name>
+					<requirement>Desecrated Handguards</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Headpiece</name>
+					<requirement>Desecrated Headpiece</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Legguards</name>
+					<requirement>Desecrated Legguards</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Spaulders</name>
+					<requirement>Desecrated Spaulders</requirement>
+				</piece>
+				<piece>
+					<name>Cryptstalker Tunic</name>
+					<requirement>Desecrated Tunic</requirement>
+				</piece>
+				<piece>
+					<name>Ring of the Cryptstalker</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Mage</class_name>
+			<set>
+				<name>Frostfire Regalia</name>
+				<piece>
+					<name>Frostfire Belt</name>
+					<requirement>Desecrated Belt</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Sandals</name>
+					<requirement>Desecrated Sandals</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Bindings</name>
+					<requirement>Desecrated Bindings</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Gloves</name>
+					<requirement>Desecrated Gloves</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Circlet</name>
+					<requirement>Desecrated Circlet</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Leggings</name>
+					<requirement>Desecrated Leggings</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Shoulderpads</name>
+					<requirement>Desecrated Shoulderpads</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Robe</name>
+					<requirement>Desecrated Robe</requirement>
+				</piece>
+				<piece>
+					<name>Frostfire Ring</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Paladin</class_name>
+			<set>
+				<name>Redemption Armor</name>
+				<piece>
+					<name>Redemption Girdle</name>
+					<requirement>Desecrated Girdle</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Boots</name>
+					<requirement>Desecrated Boots</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Wristguards</name>
+					<requirement>Desecrated Wristguards</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Handguards</name>
+					<requirement>Desecrated Handguards</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Headpiece</name>
+					<requirement>Desecrated Headpiece</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Legguards</name>
+					<requirement>Desecrated Legguards</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Spaulders</name>
+					<requirement>Desecrated Spaulders</requirement>
+				</piece>
+				<piece>
+					<name>Redemption Tunic</name>
+					<requirement>Desecrated Tunic</requirement>
+				</piece>
+				<piece>
+					<name>Ring of Redemption</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Priest</class_name>
+			<set>
+				<name>Vestments of Faith</name>
+				<piece>
+					<name>Belt of Faith</name>
+					<requirement>Desecrated Belt</requirement>
+				</piece>
+				<piece>
+					<name>Sandals of Faith</name>
+					<requirement>Desecrated Sandals</requirement>
+				</piece>
+				<piece>
+					<name>Bindings of Faith</name>
+					<requirement>Desecrated Bindings</requirement>
+				</piece>
+				<piece>
+					<name>Gloves of Faith</name>
+					<requirement>Desecrated Gloves</requirement>
+				</piece>
+				<piece>
+					<name>Circlet of Faith</name>
+					<requirement>Desecrated Circlet</requirement>
+				</piece>
+				<piece>
+					<name>Leggings of Faith</name>
+					<requirement>Desecrated Leggings</requirement>
+				</piece>
+				<piece>
+					<name>Shoulderpads of Faith</name>
+					<requirement>Desecrated Shoulderpads</requirement>
+				</piece>
+				<piece>
+					<name>Robe of Faith</name>
+					<requirement>Desecrated Robe</requirement>
+				</piece>
+				<piece>
+					<name>Ring of Faith</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Rogue</class_name>
+			<set>
+				<name>Bonescythe Armor</name>
+				<piece>
+					<name>Bonescythe Waistguard</name>
+					<requirement>Desecrated Waistguard</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Sabatons</name>
+					<requirement>Desecrated Sabatons</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Bracers</name>
+					<requirement>Desecrated Bracers</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Gauntlets</name>
+					<requirement>Desecrated Gauntlets</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Helmet</name>
+					<requirement>Desecrated Helmet</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Legplates</name>
+					<requirement>Desecrated Legplates</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Pauldrons</name>
+					<requirement>Desecrated Pauldrons</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Breastplate</name>
+					<requirement>Desecrated Breastplate</requirement>
+				</piece>
+				<piece>
+					<name>Bonescythe Ring</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Shaman</class_name>
+			<set>
+				<name>The Earthshatter</name>
+				<piece>
+					<name>Earthshatter Girdle</name>
+					<requirement>Desecrated Girdle</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Boots</name>
+					<requirement>Desecrated Boots</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Wristguards</name>
+					<requirement>Desecrated Wristguards</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Handguards</name>
+					<requirement>Desecrated Handguards</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Headpiece</name>
+					<requirement>Desecrated Headpiece</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Legguards</name>
+					<requirement>Desecrated Legguards</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Spaulders</name>
+					<requirement>Desecrated Spaulders</requirement>
+				</piece>
+				<piece>
+					<name>Earthshatter Tunic</name>
+					<requirement>Desecrated Tunic</requirement>
+				</piece>
+				<piece>
+					<name>Ring of the Earthshatterer</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warlock</class_name>
+			<set>
+				<name>Plagueheart Raiment</name>
+				<piece>
+					<name>Plagueheart Belt</name>
+					<requirement>Desecrated Belt</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Sandals</name>
+					<requirement>Desecrated Sandals</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Bindings</name>
+					<requirement>Desecrated Bindings</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Gloves</name>
+					<requirement>Desecrated Gloves</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Circlet</name>
+					<requirement>Desecrated Circlet</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Leggings</name>
+					<requirement>Desecrated Leggings</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Shoulderpads</name>
+					<requirement>Desecrated Shoulderpads</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Robe</name>
+					<requirement>Desecrated Circlet</requirement>
+				</piece>
+				<piece>
+					<name>Plagueheart Ring</name>
+				</piece>
+			</set>
+		</class>
+		<class>
+			<class_name>Warrior</class_name>
+			<set>
+				<name>Battlegear of Might</name>
+				<piece>
+					<name>Dreadnaught Waistguard</name>
+					<requirement>Desecrated Waistguard</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Sabatons</name>
+					<requirement>Desecrated Sabatons</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Bracers</name>
+					<requirement>Desecrated Bracers</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Gauntlets</name>
+					<requirement>Desecrated Gauntlets</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Helmet</name>
+					<requirement>Desecrated Helmet</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Legplates</name>
+					<requirement>Desecrated Legplates</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Pauldrons</name>
+					<requirement>Desecrated Pauldrons</requirement>
+				</piece>
+				<piece>
+					<name>Dreadnaught Breastplate</name>
+					<requirement>Desecrated Breastplate</requirement>
+				</piece>
+				<piece>
+					<name>Ring of the Dreadnaught</name>
+				</piece>
+			</set>
+		</class>
+	</category>
+</wow_sets>

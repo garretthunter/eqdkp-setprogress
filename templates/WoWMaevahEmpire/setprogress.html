@@ -1,0 +1,64 @@
+<!-- INCLUDE ../../../../templates/WoWMaevahEmpire/page_header.html -->
+<form method="get" action="{F_ACTION}">
+<table width="100%" border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <th colspan="{HEADER_COLSPAN}">
+      <div align="left">
+        <h3 align="center">{L_PAGE_TITLE}</h3>
+      </div>
+    </th>
+  </tr>
+<!-- IF S_HAS_SETS -->
+  <tr>
+    <th colspan="2">
+<input type="hidden" name="{URI_SESSION}" value="{V_SID}" />
+      <select name="class_filter" class="input" onchange="javascript:form.submit();">
+        <!-- BEGIN filter_row -->
+        <option value="{filter_row.VALUE}"{filter_row.SELECTED}>{filter_row.OPTION}</option>
+        <!-- END filter_row -->
+      </select>
+    </th>
+	<!-- BEGIN set_row -->
+    <th colspan="{set_row.COUNT}">&nbsp;{set_row.NAME}&nbsp;</th>
+	<!-- END set_row -->
+  </tr>
+  <tr>
+    <th>&nbsp;</th>
+    <th>&nbsp;{L_NAME}&nbsp;</th>
+    <!-- BEGIN cat_header -->
+    <th>{cat_header.H_ITEM}</th>
+    <!-- END cat_header -->
+  </tr>
+
+  <!-- BEGIN members_row -->
+  <tr class="{members_row.ROW_CLASS}">
+    <td width="35">&nbsp;{members_row.COUNT}&nbsp;</td>
+    <td width="100%" nowrap="nowrap"><a href="{members_row.U_VIEW_MEMBER}">{members_row.NAME}</a></td>
+    <!-- BEGIN item -->
+    <td align="center" nowrap="nowrap">
+        <div id="setprogress_row">{members_row.item.ITEM}</div>
+    </td>
+    <!-- END item -->
+  </tr>
+  <!-- END members_row -->
+  <tr>
+    <th colspan="4" class="footer">
+      <input type="hidden" name="{URI_SESSION}" value="{V_SID}" />
+      <select name="icon_size_filter" class="input" onchange="javascript:form.submit();">
+        <!-- BEGIN icon_size_filter_row -->
+        <option value="{icon_size_filter_row.VALUE}"{icon_size_filter_row.SELECTED}>{icon_size_filter_row.OPTION}</option>
+        <!-- END icon_size_filter_row -->
+      </select>&nbsp;{L_ICON_SIZE}    </th>
+    <th colspan="{HEADER_COLSPAN}" class="footer">{LISTMEMBERS_FOOTCOUNT}</th>
+  </tr>
+<!-- ELSE -->
+	<tr>
+		<td>
+	      <div style="padding:2em; text-align:center"><span class="subtitle">{L_NO_SETS_FOUND}</span></div>
+		</td>
+	</tr>
+<!-- ENDIF -->
+</table>
+</form>
+
+<!-- INCLUDE ../../../../templates/WoWMaevahEmpire/page_tail.html -->
